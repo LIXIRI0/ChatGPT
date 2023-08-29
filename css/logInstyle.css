@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.container{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+img{ 
+    width: 30.8px;
+    height: 31.22px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-left: 940px;
+      
+}
+.gptImg{
+    width: 1912px;
+    height: 32px;
+    padding-top: 32px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;  
+    padding: -80px !important;
+}
+.formCont{
+    display: flex;
+    width: 1752px;
+    height: 667px;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headerTxt{
+    width: 320px;
+    height: 48px;
+    margin-top: 24px;
+    text-align: center;
+
+}
+.header{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+}
+#email{
+    width: 286px;
+    height: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #c2c8d0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    caret-color: black;
+    border-radius: 3px;
+}
+button{
+    width: 320px;
+    height: 56px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #10A37F;
+    color: white;
+    border: NONE;
+    outline: none;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+    &:hover{
+        background-color: #158367;
+    }
+
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 90%;
+}
+.signUp{
+    text-decoration: none;
+    color: #1EA89F;
+}
+.oAuth{
+    display: flex;
+    flex-direction: column;
+}
+.googleBut{
+    margin-top: 24px;
+}
+.google{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    border: 1px solid #C2C8D0;
+    cursor: pointer;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-top: 0;
+    border-radius: 3px;
+    &:hover{
+        background-color: white;
+    }
+}
+.Img1{
+    margin-left: 0;
+    zoom: 75%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.gglTxt{
+   text-align: center;
+   align-items: center;
+   margin-top: 15PX;
+   text-decoration: none;
+}
+.microsoft{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    border: 1px solid #C2C8D0;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-top: 0;
+    border-radius: 3px;
+    &:hover{
+        background-color: white;
+    }
+}
+.Img2{
+    margin-left: 0;
+    zoom: 75%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.redirect{
+    text-decoration: none;
+}
+.apple{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    border: 1px solid #C2C8D0;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-top: 0;
+    border-radius: 3px;
+    &:hover{
+        background-color: white;
+    }
+}
+.Img3{
+    margin-left: 0;
+    zoom: 75%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.applTxt{
+    text-align: center;
+    align-items: center;
+    margin-top: 15PX;
+    text-decoration: none;
+ }
+ .msAccTxt{
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    text-decoration: none;
+ }
+ .msBut{
+    margin-top: 24px;
+}
+.appleBut{
+    margin-top: 24px;
+}
+.terms{
+    text-decoration: none;
+    color: #10A37F;
+    font-size: 94%;
+    margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.policy{
+    text-decoration: none;
+    color: #10A37F;
+    font-size: 94%;
+    margin-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.contCon{
+    margin-top: 24px;
+}

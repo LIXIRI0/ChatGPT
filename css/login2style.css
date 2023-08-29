@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.gptImg{
+    width: 1912px;
+    height: 32px;
+    padding-top: 32px !important;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    width: 30.8px;
+    height: 31.22px;
+    align-items: center;
+    margin-left: 940px;
+}
+.Container2{
+    width: 1752px;
+    height: 667px;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column !important;
+    width: 400px;
+    height: 540px;
+    align-items: center !important;
+    text-align: center !important;
+    margin-left: 680px;
+    margin-top: 125px;
+}
+.header{
+    width: 320px;
+    height: 48px;
+    margin-top: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+.headerCont{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+.mailEdit{
+    display: flex;
+    flex-direction: row;
+    width: 286px;
+    height: 45px !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #C2C8D0;
+    margin-left: 0px;
+    border-radius: 3px;
+    
+}
+#mail{
+    margin-top: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+.edit{
+    margin-left: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #44A37F;
+}
+.pass{
+    width: 278px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    border: 1px solid #C2C8D0;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    caret-color: black;
+    
+}
+.forgotPassLink{
+    margin-right: 190px;
+    text-decoration: none;
+    font-size: 95%;
+    color: #4BA37F;
+}
+.continueBut{
+    padding-left: 125px;
+    padding-right: 130px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background: #10A37F;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+    &:hover{
+        background-color: #158367;
+    }
+}
+.signUp{
+    text-decoration: none;
+    color: #10A37F;
+    font-size: 95%;
+}
+.accTxt{
+    font-size: 95%;
+ 
+}
+.terms{
+    text-decoration: none;
+    color: #10A37F;
+    font-size: 94%;
+    margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.policy{
+    text-decoration: none;
+    color: #10A37F;
+    font-size: 94%;
+    margin-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
