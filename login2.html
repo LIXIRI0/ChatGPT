@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login2style.css">
+    <script>
+        window.onload = function() {
+        var value = localStorage.getItem('emailVal');
+        
+        var output = document.getElementById('mail');
+        output.innerText = value;
+      };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="gptImg">
+            <img src="https://freelogopng.com/images/all_img/1681038325chatgpt-logo-transparent.png" alt="">
+        </div>
+        <div class="Container2">
+            <div class="formContainer">
+                <div class="headerCont">
+                    <div class="header"><H1>Enter your password</H1></div>
+                </div>
+                <div class="mailEdit">
+                    <p id="mail">  
+                    </p>
+                    <a href="index.html" class="edit">Edit</a>
+                </div>
+                <div class="passwd"><input type="password" placeholder="Password" class="pass"></div>
+                <div class="forgotPass"><a href="" class="forgotPassLink">Forgot password?</a></div>
+                <div class="continue"><a href="main.html"><button class="continueBut">Continue</button></a></div>
+                <p class="accTxt">Don't have an account? <a href="index.html" class="signUp">Sign up</a></p>
+            </div>
+        </div>
+        <footer><a href="https://openai.com/policies/terms-of-use" class="terms">Terms of use</a> | <a href="https://openai.com/policies/privacy-policy" class="policy">Privacy policy</a></footer>
+    </div>
+</body>
+</html>

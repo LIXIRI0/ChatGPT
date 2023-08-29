@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | OpenAI</title>
+    <link rel="stylesheet" href="./css/logInstyle.css">
+    <script>
+        function submitValue() {
+        var input = document.getElementById('email');
+        var value = input.value;
+        
+        localStorage.setItem('emailVal', value);
+        }
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="gptImg">
+            <img src="https://freelogopng.com/images/all_img/1681038325chatgpt-logo-transparent.png" alt="">
+        </div>
+        <div class="formCont">
+            <div class="header" style="font-family: 'Open Sans', sans-serif;"><h1 class="headerTxt">Welcome back</h1></div>
+            <div class="form">
+                <input type="text" name="" id="email" placeholder="Email address">
+                <div class="contCon"><a href="login2.html"><button onclick="submitValue()" class="continue">Continue</button></a></div>
+                <p>Don't have an account? <a href="index.html" class="signUp">Sign Up</a></p>
+                <div class="oAuth">
+                    <div class="googleBut"><a href="main.html" class="redirect"><button class="google"><img src="https://cdn-icons-png.flaticon.com/512/281/281764.png " alt="" class="Img1"><span class="gglTxt">Continue with Google</span></button></a></div>
+                    <div class="msBut"><a href="main.html" class="redirect"><button class="microsoft"><img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="" class="Img2"><span class="msAccTxt">Continue with Microsoft Account</span></button></a></div>
+                    <div class="appleBut"> <a href="main.html" class="redirect"><button class="apple"><img src="./assets/747.png" alt="" class="Img3"><span class="applTxt">Continue with Apple</span> </button></a></div>
+                </div>
+            </div>
+        </div>
+        <footer><a href="https://openai.com/policies/terms-of-use" class="terms">Terms of use</a> | <a href="https://openai.com/policies/privacy-policy" class="policy">Privacy policy</a></footer>
+    </div>
+</body>
+</html>
